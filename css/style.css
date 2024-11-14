@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Afacad";
+}
+
+body {
+  background-image: url("/images/St9nnADDyxcnUsu0a8h0--2--fuvdh.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 5vw;
+  max-width: 90vw;
+}
+
+@keyframes rainbow {
+  0% {
+    color: #ff6b6b;
+    text-shadow: 0 0 10px #ff6b6b, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  16.67% {
+    color: #ffb86c;
+    text-shadow: 0 0 10px #ffb86c, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  33.33% {
+    color: #fee440;
+    text-shadow: 0 0 10px #fee440, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  50% {
+    color: #9ee09e;
+    text-shadow: 0 0 10px #9ee09e, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  66.67% {
+    color: #68c2e8;
+    text-shadow: 0 0 10px #68c2e8, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  83.33% {
+    color: #b393f5;
+    text-shadow: 0 0 10px #b393f5, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  100% {
+    color: #ff6b6b;
+    text-shadow: 0 0 10px #ff6b6b, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 12vh;
+  flex-wrap: wrap;
+  animation: rainbow 5s linear infinite;
+}
+
+h2 {
+    font-size: 6vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    animation: rainbow 5s linear infinite;
+
+}
+
+p {
+    font-size: 3vh;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 10px white;
+
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  flex: 1;
+  margin: 2vh;
+  font-size: 4vh;
+}
+
+.form > input {
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
+
+.form > button {
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  background: #ca1371;
+  background: linear-gradient(135deg, #ca1371, #271c86);
+}
